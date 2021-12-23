@@ -10,7 +10,10 @@ It is built in case your application is not works for Multi-hop proxies instand 
 1. proxy-Zata <---> proxy1 <---> proxy2 <---> proxy3
 2. your application <---> proxy-Zata <---> proxy1 <---> proxy2 <---> proxy3 <---> target
 
+so far, it only works for socks protocol.
+
 ## usage
+see config.py
 
 ## about
 local-server part is from [rushter/socks5](https://github.com/rushter/socks5)
